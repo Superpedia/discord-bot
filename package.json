@@ -1,0 +1,30 @@
+{
+	"name": "discord-bot",
+	"description": "## Superpedia Discord League Bot",
+	"version": "1.0.0",
+	"main": "index.js",
+	"devDependencies": {},
+	"scripts": {
+		"start": "node src/index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"engines": {
+		"node": ">=16.0.0"
+	},
+	"dependencies": {
+		"discord.js": "^14.0.3",
+		"dotenv": "^16.0.1",
+		"mongoose": "^6.4.7"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Superpedia/discord-bot.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Superpedia/discord-bot/issues"
+	},
+	"homepage": "https://github.com/Superpedia/discord-bot#readme"
+}
